@@ -25,6 +25,9 @@
             <plugin>
                 <groupId>org.graalvm.buildtools</groupId>
                 <artifactId>native-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.example.testing.TestingApplication</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>
